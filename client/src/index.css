@@ -1,0 +1,22 @@
+.card-text {
+    overflow-wrap: break-word; /* Ensures long text breaks into the next line */
+    word-wrap: break-word;     /* Older browsers support this */
+    word-break: break-word;    /* Ensures words are broken and wrapped */
+}
+
+.card {
+    word-wrap: break-word;  /* Ensures text within card wraps */
+}
+
+.text-truncate {
+    white-space: normal; /* Allow text inside truncation area to wrap */
+}
+
+.badge {
+    white-space: nowrap; /* Prevent badge text from breaking */
+}
+
+.dropdown-menu {
+    max-width: 200px; /* Optional, to restrict dropdown size */
+    word-wrap: break-word; /* Ensures the dropdown text breaks if needed */
+}
